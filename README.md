@@ -45,7 +45,7 @@ FROM products;
 7. Missing stock_location values are replaced with "Unknown" while being uniformly formatted to all uppercase values.
 
 # Finding Min and Max Prices for Each Product Type
-To find the price range for each product type, I found the minimum and maximum price for each product using the following query:
+To find the price range for each product type, I find the minimum and maximum price for each product using the following query:
 ```
 SELECT product_type,
     MIN(price) AS min_price,
